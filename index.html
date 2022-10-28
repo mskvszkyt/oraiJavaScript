@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <label for="nev">Megrendelő neve:</label>
+            <input type="text" id="nev" name="megrendelonev"><br>
+            <label for="cim">Megrendelo címe: </label>
+            <input type="text" id="cim" name="megrendelocim"><br>
+            <label for="tel">Megrendelo telefonszáma: </label>
+            <input type="tel"  pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" name="telefon"><br>
+            <input type="button" value="Elküld" onclick="Elküld()">
+        </form>
+    </div>
+    <div id="visszaigazolas">
+        <h1>Visszaigazolás!</h1>
+        <p>Név: <span id="visszaNev">?</span></p>   
+        <p>Név: <span id="visszaCim">?</span></p>   
+        <p>Név: <span id="visszaTel">?</span></p>   
+    </div>
+</body>
+
+</html>

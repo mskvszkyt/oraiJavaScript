@@ -1,0 +1,46 @@
+body{
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+input{
+    border: 2px solid black;
+}
+
+input{
+    height: 20px;
+    margin: auto;
+}
+
+[type = "button"]{
+    width: 50%;
+    height: 60px;
+    margin: 40px;
+    font-size: 40px;
+}
+
+div{
+    background-color: rgb(175, 164, 238);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 600px;
+    height: 25vh;
+}
+
+#visszaigazolas{
+    height: 15vh;
+    
+}
+
+p,h1{
+    margin: 2px;
+}
+
+h1{
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+}
