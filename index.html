@@ -14,19 +14,19 @@
     <div>
         <form>
             <label for="nev">Megrendelő neve:</label>
-            <input type="text" id="nev" name="megrendelonev"><br>
+            <input type="text" id="nev" name="megrendelonev" onfocus="Dekoral(this)" onblur="VisszaAllit(this)"><br>
             <label for="cim">Megrendelo címe: </label>
-            <input type="text" id="cim" name="megrendelocim"><br>
+            <input type="text" id="cim" name="megrendelocim" onfocus="Dekoral(this)" onblur="VisszaAllit(this)"><br>
             <label for="tel">Megrendelo telefonszáma: </label>
-            <input type="tel"  pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" name="telefon"><br>
-            <input type="button" value="Elküld" onclick="Elküld()">
+            <input type="tel" pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" name="telefon" onfocus="Dekoral(this)" onblur="VisszaAllit(this)"><br>
+            <input type="button" value="Elküld" onfocus="Dekoral(this)" onblur="VisszaAllit(this)" onclick="Elküld()">
         </form>
     </div>
     <div id="visszaigazolas">
         <h1>Visszaigazolás!</h1>
-        <p>Név: <span id="visszaNev">?</span></p>   
-        <p>Név: <span id="visszaCim">?</span></p>   
-        <p>Név: <span id="visszaTel">?</span></p>   
+        <p>Név: <span id="visszaNev">?</span></p>
+        <p>Név: <span id="visszaCim">?</span></p>
+        <p>Név: <span id="visszaTel">?</span></p>
     </div>
 </body>
 
